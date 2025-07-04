@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class StandardRoom {
+public class StandardRoom extends EconomyRoom {
+    public StandardRoom(int roomNumber, int maxOccupancy, int pricePerNight) {
+        super(roomNumber, maxOccupancy, pricePerNight);
+    }
 }

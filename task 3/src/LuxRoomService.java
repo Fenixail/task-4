@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+import java.util.List;
 
-public class LuxRoomService {
+public interface LuxRoomService<T extends LuxRoom> extends RoomService<T> {
+    void foodDelivery(T room);
 }
+
